@@ -1,12 +1,12 @@
-// given an array of bananas and a monkey has to eat all those bananas within given hours 
+// given an array of bananas and a monkey has to eat all those bananas within given hours.
 // we have to find that how many bananas monkey should eat per hour so that after eating  the submission of hour must equal to given hours.
 // for eg :- nums = [7, 15, 6, 3], h = 8
 
-// like if monkey eats 5 bananas per hour then its submission will be  [2 , 3, 2 , 1 ]  i.e. is 8 which is equal to h 
+// like if monkey eats 5 bananas per hour then its submission will be  [2 , 3, 2 , 1 ]  i.e. is 8 which is equal to h therefore the answer is 8.
 
 
-// Bruteforce solution : normal two loops with linear search 
-// T.C :- O(m*n)           where m is no. that check for per hours and n is iterating through loops
+// Bruteforce solution : normal two loops with linear search. 
+// T.C :- O(m*n)           where m is no. that check for per hours and n is iterating through loops.
 // S.C :- O(1)
 
 class Solution {
@@ -36,8 +36,8 @@ int minimumRateToEatBananas(vector<int> nums, int h) {
 };
 
 
-// Optimised solution  :- binary search --- important thing to find a limit for binary search 
-// T.C :- O(N log(m)) where m is maximum element 
+// Optimised solution  :- binary search --- important thing to find a limit for binary search. 
+// T.C :- O(N log(m)) where m is maximum element.
 // S.C :- O(1)
 
 class Solution {
